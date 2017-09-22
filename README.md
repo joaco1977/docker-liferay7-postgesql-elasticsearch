@@ -1,0 +1,1 @@
+# docker-liferay7-postgesql-elasticsearch
