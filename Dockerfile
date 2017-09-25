@@ -93,7 +93,7 @@ RUN echo "admin.email.from.address=joaquincabal@gmail.com\
 \njdbc.default.username=lportal\
 \njdbc.default.password=lportal" >> $LIFERAY_HOME/portal-ext.properties
 
-RUN echo 'operationMode="REMOTE"' >> $LIFERAY_HOME/osgi/configs/com.liferay.portal.search.elasticsearch.configuration.ElasticsearchConfiguration.cfg
+RUN echo "operationMode=REMOTE" >> $LIFERAY_HOME/osgi/configs/com.liferay.portal.search.elasticsearch.configuration.ElasticsearchConfiguration.cfg
 
 
 #tomcat      
